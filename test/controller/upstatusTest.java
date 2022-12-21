@@ -57,7 +57,7 @@ public class upstatusTest {
     public void testUp() {
         System.out.println("up");
         String sta = "Food being Prepared";
-        String id = "11";
+        String id = "10";
         upstatus instance = new upstatus();
         boolean expResult = true;
         boolean result = instance.up(sta, id);

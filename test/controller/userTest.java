@@ -43,7 +43,7 @@ public class userTest {
     @Test
     public void testSignIn() {
         System.out.println("signIn");
-        String userID = "1";
+        String userID = "3";
         String pass = "123";
         user instance = new user();
         instance.signIn(userID, pass);
@@ -59,11 +59,11 @@ public class userTest {
     @Test
     public void testSignup() {
         System.out.println("signup");
-        String UserId = "3";
-        String fName = "abul";
-        String lName = "kalam";
-        String email = "kalam@gmail.com";
-        String address = "Azimpur";
+        String UserId = "1";
+        String fName = "Mim";
+        String lName = "Test4";
+        String email = "mimTest3@gmail.com";
+        String address = "Uttara";
         String pass = "123";
         String conpass = "123";
         user instance = new user();

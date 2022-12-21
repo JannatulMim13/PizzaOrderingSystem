@@ -43,8 +43,8 @@ public class adminTest {
     @Test
     public void testLogin() throws Exception {
         System.out.println("login");
-        String email = "hasnayen3072@gmail.com";
-        String pass = "1234";
+        String email = "[mim@gmail.com]";
+        String pass = "[12345]";
         admin instance = new admin();
         boolean expResult = true;
         boolean result = instance.login(email, pass);  
