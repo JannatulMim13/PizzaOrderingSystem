@@ -40,7 +40,7 @@ CREATE TABLE `admin1` (
 
 INSERT INTO `admin1` (`Email`, `FName`, `LName`, `Password`) VALUES
 ('\0', '\0', '\0', '?'),
-('hasnayen3072@gmail.com', 'Abu Hasnayen', 'Zillanee', '1234');
+('JannatulMim@gmail.com', 'Jannatul Ferdous', 'Mim', '1234');
 
 -- --------------------------------------------------------
 
@@ -113,8 +113,8 @@ CREATE TABLE `user1` (
 --
 
 INSERT INTO `user1` (`UserID`, `FName`, `LName`, `Email`, `Address`, `Password`) VALUES
-('[1]', '[Abu Hasnayen]', '[Zillanee]', '[hasnayen3072@gmail.com]', '[Lalbag]', '[123]'),
-('[1]', '[Abu Hasnayen]', '[Zillanee]', '[hasnayen3072@gmail.com]', '[Lalbag]', '[123]');
+('[1]', '[Jannatul Ferdous]', '[Mim]', '[mim5678@gmail.com]', '[Uttara]', '[123]'),
+('[1]', '[Jannatul Ferdous]', '[Mim]', '[mim5678@gmail.com]', '[Uttara]', '[123]');
 
 --
 -- Indexes for dumped tables
